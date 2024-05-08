@@ -1,0 +1,10 @@
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px !important;
+    padding-left: 10px;
+}
+.navbar-nav .nav-link {
+   
+    font-weight: 500;
+}

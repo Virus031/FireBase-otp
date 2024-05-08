@@ -1,0 +1,274 @@
+/* .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6  {
+
+  font-family: "Bebas Neue", sans-serif;
+
+
+} */
+body {
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-gredient {
+  background-image: linear-gradient(#ffad02, #fdedca);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+h5.subtitle {
+  font-family: "Satisfy", cursive;
+  color: #fff;
+  font-weight: normal;
+  font-size: 30px;
+}
+h1.main-title {
+  font-size: 74px;
+  color: var(--secondary-color) !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 74px;
+}
+
+.row-img.d-flex.gap-4.mt-4 .showing_item {
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  width: 50%;
+}
+
+.row-img img {
+  width: 74px;
+  max-width: 100%;
+  border-radius: 17px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+input.rounded-pill.form-control {
+  padding-left: 45px;
+}
+span#basic-addon1 {
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+input.rounded-pill.py-2.form-control {
+  box-shadow: rgb(149 157 165 / 9%) 0px 8px 24px;
+  border-right: 0;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.search-loaction {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section.second_section.py-4.bg-gredient {
+  padding: 80px 0px !important;
+}
+
+.second_section .image {
+  text-align: right;
+}
+
+.second_section .image img {
+  width: 300px;
+  max-width: 100%;
+}
+
+.second_section .content .sub_title,
+.second_section .content .main_title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.second_section .content button {
+  margin-top: 22px;
+}
+
+.corporate_section {
+  background-color: #f6f6f6;
+  padding: 80px 0px !important;
+}
+
+/* .corporate_section .content {
+  text-align: right !important;
+} */
+
+.corporate_section .content img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 440px;
+}
+
+.corporate_section .content .content_text {
+  text-align: left;
+  margin-left: 52px;
+  margin-top: 10px;
+}
+
+.corporate_section .content .content_text .main_title {
+  color: #ffad02;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.corporate_section .content .content_text button {
+  margin-top: 20px;
+}
+
+.corporate_section .image img {
+  width: 80%;
+}
+.card {
+  border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card img.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card .card-title.h5 {
+  color: #ffad02;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.card p.card-text {
+  margin-bottom: 30px;
+  color: #ADADBA;
+}
+
+@media screen and (max-width: 480px) {
+  .row-img {
+    flex-direction: column;
+}
+.row-img.d-flex.gap-4.mt-4 .showing_item{
+  width: 100%;
+}
+  h2 {
+    font-size: 40px;
+  }
+
+  .banbanner-column.text-center img{
+    width: 100%;
+  }
+  .meet-your-nw .row {
+    width: 100% !important;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .position-relative {
+    position: relative !important;
+  }
+  img.borderd-img.position-relative {
+    width: 100%;
+  }
+  .py-4.gap-4.flex-md-nowrap.row {
+    width: 100% !important;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+  h1.main-title {
+    font-size: 40px;
+
+    line-height: 44px;
+  }
+  .banner {
+    padding: 40px 0 !important;
+  }
+
+  .grid-col.left .wrap-details h2 {
+    font-size: 40px;
+  }
+  .grid-col {
+    padding: 20px;
+  }
+  div#basic-navbar-nav {
+    position: absolute;
+    top: 100px;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    transition: 0.9s;
+  }
+
+  .second_section .image,.second_section .content{
+    text-align: center;
+  }
+
+  .corporate_section .content .content_text{
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .corporate_section .image img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+}
+
+
+#restaurants_details {
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 300px !important;
+  background-position: center;
+  color: #fff;
+}
+
+.menu-items {
+  display: flex;
+}
+ .menu-item img{
+  max-width: 100%;
+  object-fit: cover;
+  height: 260px;
+  max-height: 100%;
+  width: 400px;
+  object-position: center center;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 2s linear infinite;
+}
+
+.react-tel-input .country-list{
+  text-align: left;
+}
